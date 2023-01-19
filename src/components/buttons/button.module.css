@@ -1,0 +1,32 @@
+.BtnGroup {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:1rem 0;
+}
+.BtnGroup button {
+  padding:0 3rem;
+  margin:0 1rem;
+  cursor:pointer;
+}
+.BtnGroup button:hover,
+.BtnGroup button:active,
+.BtnGroup button:visited {
+  background:linear-gradient(
+    90deg,
+    rgba(215,127,12,1) 0%,
+    rgba(253,220,12,1) 100%
+  );
+}
+.BtnPrev {
+  border:.1rem solid #ccc;
+  border-radius:.2rem;
+  background-color:rgba(255,255,255,1);
+  font-size:1.2rem;
+}
+.BtnNext {
+  border:.1rem solid #ccc;
+  border-radius:.2rem;
+  background-color:#ccc;
+  font-size:1.2rem;
+}
